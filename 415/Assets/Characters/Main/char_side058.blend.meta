@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 6ccdb2c59aa30bd4aba94012e3e6d540
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: //RootNode
+    100006: Circle
+    100008: Foot_L
+    100010: Foot_R_IK
+    100012: Foot_RR
+    100014: FootControl_L
+    100016: FootControl_R
+    100018: FootL_IK
+    100020: Hand_BOT
+    100022: Hand_TOP
+    100024: Head_001
+    100026: Knee_L
+    100028: Knee_R
+    100030: LowerArm_BOT
+    100032: LowerArm_TOP
+    100034: LowerLeg_L
+    100036: LowerLeg_R
+    100038: UpperArm_BOT
+    100040: UpperArm_TOP
+    100042: UpperLeg_L
+    100044: UpperLeg_R
+    400000: Armature
+    400002: Body
+    400004: //RootNode
+    400006: Circle
+    400008: Foot_L
+    400010: Foot_R_IK
+    400012: Foot_RR
+    400014: FootControl_L
+    400016: FootControl_R
+    400018: FootL_IK
+    400020: Hand_BOT
+    400022: Hand_TOP
+    400024: Head_001
+    400026: Knee_L
+    400028: Knee_R
+    400030: LowerArm_BOT
+    400032: LowerArm_TOP
+    400034: LowerLeg_L
+    400036: LowerLeg_R
+    400038: UpperArm_BOT
+    400040: UpperArm_TOP
+    400042: UpperLeg_L
+    400044: UpperLeg_R
+    2100000: Face_MAT__Face_UV
+    2100002: Hair_MAT__Hair_UV_png
+    2100004: Outline_UV__Outline_UV
+    2100006: Eyes_MAT__Eyes_UV
+    2100008: Shirt_MAT__Shirt_UV
+    2100010: UpperArm_MAT__UpperArm_UV
+    2100012: LowerArm_UV__LowerArm_UV
+    2100014: Hand_UV__Hand_UV
+    2100016: UpperLeg_MAT__UpperLeg_UV
+    2100018: UpperLeg_MAT__Outline_UV
+    2100020: LowerLegR_MAT__LowerLeg_R_UV
+    2100022: LowerLegL_MAT__LowerLegL_UV
+    2100024: Shoes_MAT__Shoes_UV
+    2100026: Buttons_MAT__Buttons_UV
+    2100028: Hair_MAT__Buttons_UV
+    4300000: Circle
+    7400000: Default Take
+    7400002: Rest_001
+    7400004: walk
+    7400006: Rest
+    9500000: //RootNode
+    13700000: Circle
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Buttons_MAT__Buttons_UV
+    second: {fileID: 2100000, guid: e3f54f8e52ec50849b80e1668995b019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes_MAT__Eyes_UV
+    second: {fileID: 2100000, guid: ad5d276baa0279a4db2c0d8a27c700e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face_MAT__Face_UV
+    second: {fileID: 2100000, guid: 101398f6fabf4a24eae135325d02172a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair_MAT__Buttons_UV
+    second: {fileID: 2100000, guid: 16c146fdec1682c4c80d39a9c0bd26cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair_MAT__Hair_UV_png
+    second: {fileID: 2100000, guid: 16c146fdec1682c4c80d39a9c0bd26cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hand_UV__Hand_UV
+    second: {fileID: 2100000, guid: 850bafbdad2eaf44497418e40f34cd8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowerArm_UV__LowerArm_UV
+    second: {fileID: 2100000, guid: 4745412dd3a9f7c4aa379f5b7c98ac44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowerLegL_MAT__LowerLegL_UV
+    second: {fileID: 2100000, guid: e0faab4d821b0064ba9ed3afcdd7b8a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowerLegR_MAT__LowerLeg_R_UV
+    second: {fileID: 2100000, guid: ff65b241fc008994b99af632619007cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline_UV__Outline_UV
+    second: {fileID: 2100000, guid: b5390ded430e6b04fb73476c44136b3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt_MAT__Shirt_UV
+    second: {fileID: 2100000, guid: 4419eb1e2480a0e42a77591ce4456031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoes_MAT__Shoes_UV
+    second: {fileID: 2100000, guid: 38cb13f221f7e5842857167c53db3ab9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UpperArm_MAT__UpperArm_UV
+    second: {fileID: 2100000, guid: 2260daacb17b4df4b98874af434e2878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UpperLeg_MAT__Outline_UV
+    second: {fileID: 2100000, guid: e0965a2d60e07434bb0e0b83864b0dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UpperLeg_MAT__UpperLeg_UV
+    second: {fileID: 2100000, guid: e0965a2d60e07434bb0e0b83864b0dcf, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rest_001
+      takeName: Rest_001
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 0
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rest
+      takeName: Rest
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 5
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

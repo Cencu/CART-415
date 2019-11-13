@@ -61,12 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FantasyIconsPackFree\Demo\IconViewer.cs" />
-    <Compile Include="Assets\Scripts\ChoiceMenu.cs" />
-    <Compile Include="Assets\Scripts\Dialogue.cs" />
-    <Compile Include="Assets\Scripts\DialogueManager.cs" />
-    <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
-    <Compile Include="Assets\Scripts\doorDestroy.cs" />
-    <Compile Include="Assets\Scripts\EatTut.cs" />
+    <Compile Include="Assets\Scripts\Dialogie\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Dialogie\DialogueChoices.cs" />
+    <Compile Include="Assets\Scripts\Dialogie\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\Dialogie\DialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\EnemyCatchMain.cs" />
     <Compile Include="Assets\Scripts\Hide.cs" />
@@ -77,6 +75,7 @@
     <Compile Include="Assets\Scripts\PlayerInteract.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PopUp.cs" />
+    <Compile Include="Assets\Scripts\ShopControl.cs" />
     <Compile Include="Assets\Scripts\UseBino.cs" />
     <None Include="Assets\Tiny Fantasy Icons\README.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">

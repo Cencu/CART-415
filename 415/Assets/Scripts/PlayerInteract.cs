@@ -56,19 +56,25 @@ public class PlayerInteract : MonoBehaviour
 
         }
 
-        //use food 
-        if (Input.GetButtonDown("Use Item"))
+        //use items 
+        if (Input.GetButtonDown("Interact"))
         {
             //check inventory for item
-            GameObject food = inventory.FindItemByType("Food"); 
-            if (food != null)
+            GameObject key = inventory.FindItemByType("Key_B"); 
+            if (key != null)
             {
                 //use item and apply effect
-
+                inventory.RemoveItem(key);
             }
-           
 
-            //remove from inventory
+            GameObject food = inventory.FindItemByType("Food");
+            if (food != null)
+            {
+                //use item and remove
+                inventory.RemoveItem(food);
+            }
+
+
         }
 
     }

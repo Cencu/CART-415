@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,12 +10,23 @@ public class PlayerMovement : MonoBehaviour
     
     public float moveSpeed = 10f;
     private bool walking = false;
+    public bool dead = false;
+
+    public GameObject menuPanel;
+    public Text messageText;
+
     // Start is called before the first frame update
     void Start()
     {
 
         mAnim = GetComponent<Animator>();
+        //At start, wait for player to start
+       // Time.timeScale = 0f;
+        //make panel visible 
+        menuPanel.SetActive(false);
+         Time.timeScale = 1f;
 
+        //  messageText.text = "Press Play to Start";
     }
 
     private void Update()
@@ -32,6 +45,34 @@ public class PlayerMovement : MonoBehaviour
             transform.position += movement * Time.deltaTime * moveSpeed;
         // walking = true;
         mAnim.SetBool("Walking", walking);
+
+        
+    }
+
+    public void startButton()
+    {
+        //menuPanel.SetActive(false);
+        //Time.timeScale = 1f;
+
+        //to use as a restart
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+
+    }
+
+    public void death()
+    {
+        if (dead)
+        {
+            menuPanel.SetActive(true);
+            messageText.text = "Game Over";
+        }
+    }
+
+    public void QuitButton()
+    {
+        Application.Quit();
+        Debug.Log("Quit button has been pressed");
     }
     
 }

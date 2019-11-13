@@ -116,8 +116,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6618400659611339788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92f8441c50e374e439cb28b5201b9103, type: 3}
+  m_Script: {fileID: 11500000, guid: c671e5bc5f34e024ea85132cb6e72286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 1
-  item: {fileID: 0}
+  inventory: 1
+  openable: 0
+  locked: 0
+  talks: 0
+  itemType: Food
+  itemNeeded: {fileID: 0}
+  anim: {fileID: 0}
+  message: 

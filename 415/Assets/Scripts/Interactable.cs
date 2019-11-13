@@ -34,4 +34,6 @@ public class Interactable : MonoBehaviour
         Debug.Log(message);
     }
 
+    
+
 }

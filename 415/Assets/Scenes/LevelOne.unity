@@ -209,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163211468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.85, y: 5.799, z: 10.3}
+  m_LocalPosition: {x: -11.7, y: 5.799, z: 11.11}
   m_LocalScale: {x: 0.539, y: 0.539, z: 0.539}
   m_Children: []
   m_Father: {fileID: 0}
@@ -283,9 +283,7 @@ MonoBehaviour:
     name: Courier
     sentences:
     - 'Letter for you... with the kings seal. '
-    - 'By the way, lots of bandits have been spotted nearby. '
-    - If I were you, I'd get out of here...
-  selections: 0
+  selections: 1
 --- !u!114 &163211474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,7 +773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421901687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33.99, y: 5.3, z: -29.555708}
+  m_LocalPosition: {x: -23.89, y: 5.3, z: -29.555708}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1285,7 +1283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625373160}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.22, y: 0.27, z: 11.16}
+  m_LocalPosition: {x: 42.22, y: 0.27, z: 11.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 625079246}
@@ -4754,7 +4752,7 @@ GameObject:
   - component: {fileID: 1621644100}
   - component: {fileID: 1621644099}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: DialogueChoices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4772,7 +4770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026202726099b1246a5c874bcf313a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogueBox: {fileID: 1782691605}
+  DialogueBox: {fileID: 1035670978}
   Choice01: {fileID: 2058563662}
   Choice02: {fileID: 1054740517}
   Choice03: {fileID: 347365982}
@@ -5546,7 +5544,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828683095}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -41.41, y: 0, z: -2.3}
+  m_LocalPosition: {x: -28.45, y: 0, z: -2.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1828249971}
@@ -9977,12 +9975,12 @@ PrefabInstance:
     - target: {fileID: 201312670512770655, guid: 5fb45efa838cad844bbe8d970ddbcbe3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.698653
+      value: 7.86
       objectReference: {fileID: 0}
     - target: {fileID: 201312670512770655, guid: 5fb45efa838cad844bbe8d970ddbcbe3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.1599998
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 201312670512770655, guid: 5fb45efa838cad844bbe8d970ddbcbe3,
         type: 3}

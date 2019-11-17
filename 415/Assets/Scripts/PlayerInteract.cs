@@ -26,6 +26,7 @@ public class PlayerInteract : MonoBehaviour
             //check if it can be opened
             if (currentInterObjScript.openable)
             {
+                Debug.Log("asd");
                 //check to see if its locked
                 if (currentInterObjScript.locked)
                 {

@@ -27,11 +27,7 @@ public class DialogueChoices : MonoBehaviour
         {
             Choice01.SetActive(false);
             Choice02.SetActive(false);
-        } else 
-        {
-            Choice01.SetActive(true);
-            Choice02.SetActive(true);
-        }
+        } 
 
     }
 

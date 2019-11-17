@@ -98,6 +98,7 @@ ModelImporter:
     7400000: Armature|a
     7400002: Armature|rest
     7400004: Armature|walk
+    7400006: Armature|walk (1)
     9500000: //RootNode
     13700000: Shoe_L.001
   externalObjects:
@@ -239,17 +240,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|rest
-      takeName: Armature|rest
+      name: Armature|walk (1)
+      takeName: Armature|walk
       firstFrame: 0
-      lastFrame: 1
+      lastFrame: 45
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -277,7 +278,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

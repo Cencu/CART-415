@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: b64f899f2ca938144bd69d087059f4f5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Camera
+    100006: //RootNode
+    100008: Face
+    100010: Face_end
+    100012: Foot_L
+    100014: Foot_L_end
+    100016: Foot_R
+    100018: Foot_R_end
+    100020: FootControl_L
+    100022: FootControl_R
+    100024: FootIK_L
+    100026: FootIK_R
+    100028: Hand_BOT
+    100030: Hand_BOT_end
+    100032: Hand_TOP
+    100034: Hand_TOP_end
+    100036: Knee_L
+    100038: Knee_L_end
+    100040: Knee_R
+    100042: Knee_R_end
+    100044: LowerArm_BOT
+    100046: LowerArm_TOP
+    100048: LowerLeg_L
+    100050: LowerLeg_L_end
+    100052: LowerLeg_R
+    100054: LowerLeg_R_end
+    100056: Master
+    100058: Shoe_L.001
+    100060: UpperArm_BOT
+    100062: UpperArm_TOP
+    100064: UpperLeg_L
+    100066: UpperLeg_R
+    400000: Armature
+    400002: Body
+    400004: Camera
+    400006: //RootNode
+    400008: Face
+    400010: Face_end
+    400012: Foot_L
+    400014: Foot_L_end
+    400016: Foot_R
+    400018: Foot_R_end
+    400020: FootControl_L
+    400022: FootControl_R
+    400024: FootIK_L
+    400026: FootIK_R
+    400028: Hand_BOT
+    400030: Hand_BOT_end
+    400032: Hand_TOP
+    400034: Hand_TOP_end
+    400036: Knee_L
+    400038: Knee_L_end
+    400040: Knee_R
+    400042: Knee_R_end
+    400044: LowerArm_BOT
+    400046: LowerArm_TOP
+    400048: LowerLeg_L
+    400050: LowerLeg_L_end
+    400052: LowerLeg_R
+    400054: LowerLeg_R_end
+    400056: Master
+    400058: Shoe_L.001
+    400060: UpperArm_BOT
+    400062: UpperArm_TOP
+    400064: UpperLeg_L
+    400066: UpperLeg_R
+    2000000: Camera
+    2100000: Shoe_MAT
+    2100002: eyes
+    2100004: Outlines
+    2100006: Shoe_R_UV_BOT
+    2100008: Face_Other
+    2100010: Hat_MAT
+    2100012: Hair_MAT
+    2100014: UpperLeg_MAT
+    2100016: LoweLeg_MAT
+    2100018: LowerLEGR_MAT
+    2100020: Shirt_MAT
+    2100022: UppeArm_MAT
+    2100024: LowerArm_MAT
+    2100026: Hand_MAT.001
+    2100028: Bag_MAT
+    2100030: Shoe_R_MAT
+    2100032: Show_L_MAT
+    2100034: LowerLeg_R_MAT
+    2100036: LowerLeg_L
+    2100038: Hand_MAT
+    2100040: Hair_MAT.001
+    2100042: face_MAT
+    4300000: Shoe_L.001
+    7400000: Armature|a
+    7400002: Armature|GiveItem
+    7400004: Armature|walk
+    9500000: //RootNode
+    13700000: Shoe_L.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

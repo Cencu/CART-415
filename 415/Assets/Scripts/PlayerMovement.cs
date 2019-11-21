@@ -3,17 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using VIDE_Data;
 
 public class PlayerMovement : MonoBehaviour
 {
     private Animator mAnim;
-    
+
+    public string playerName = "Scotty";
+
     public float moveSpeed = 10f;
     private bool walking = false;
     public bool dead = false;
 
     public GameObject menuPanel;
     public Text messageText;
+
+    public VIDE_Assign inTrigger;
+    public VIDEUIManager1 diagUI;
 
     // Start is called before the first frame update
     void Start()
@@ -46,7 +52,30 @@ public class PlayerMovement : MonoBehaviour
         // walking = true;
         mAnim.SetBool("Walking", walking);
 
-        
+       /* if (!VD.isActive)
+        {
+            transform.Rotate(0, Input.GetAxis("Mouse X") * 5, 0);
+            float move = Input.GetAxisRaw("Vertical");
+            transform.position += transform.forward * 7 * move * Time.deltaTime;
+            
+        }*/
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            TryInteract();
+           // Debug.Log("interacted");
+        }
+
+    }
+
+    void TryInteract()
+    {
+        if(inTrigger)
+        {
+            diagUI.Interact(inTrigger);
+            Debug.Log("interacted");
+            return;
+        }
     }
 
     public void startButton()
@@ -74,5 +103,16 @@ public class PlayerMovement : MonoBehaviour
         Application.Quit();
         Debug.Log("Quit button has been pressed");
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.GetComponent<VIDE_Assign>() != null)
+        {
+            inTrigger = other.GetComponent<VIDE_Assign>();
+        }
+    }
+    void OnTriggerExit()
+    {
+        inTrigger = null;
+    }
 }

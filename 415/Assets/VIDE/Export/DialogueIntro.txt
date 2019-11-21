@@ -1,0 +1,68 @@
+Edit the dialogue on the go.
+You can edit and add comments, edit the tags, and set node type.
+Do not attempt to add more nodes: the number of nodes must match when importing the text file.
+Do not modify the IDs.
+Do not add or remove empty lines.
+Do not restructure the data.
+
+Dialogue name: DialogueIntro
+---------------------------------
+#NODEID#
+0
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Message for you...
+#COMMENT#
+with the kings seal
+#COMMENT#
+Enjoy...
+---------------------------------
+#NODEID#
+1
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Wasn't expecting this
+#COMMENT#
+What's going on outside?
+#COMMENT#
+Thank you.
+---------------------------------
+#NODEID#
+2
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Don't know what to tell you bud.
+---------------------------------
+#NODEID#
+3
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Bandit riders were seen not too far from here, best head off if I were you.
+---------------------------------
+#NODEID#
+4
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Bye.
+---------------------------------
+#END#

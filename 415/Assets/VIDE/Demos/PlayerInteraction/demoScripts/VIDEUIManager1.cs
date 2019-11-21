@@ -39,7 +39,7 @@ public class VIDEUIManager1 : MonoBehaviour
     bool animatingText = false; //Will help us know when text is currently being animated
 
     //Reference to the player script
-    public VIDEDemoPlayer player;
+    public PlayerMovement player;
 
     //We'll be using this to store references of the current player choices
     private List<Text> currentChoices = new List<Text>();
@@ -257,7 +257,7 @@ public class VIDEUIManager1 : MonoBehaviour
     //Called automatically because we subscribed to the OnEnd event
     void EndDialogue(VD.NodeData data)
     {
-        CheckTasks();
+       // CheckTasks();
         VD.OnActionNode -= ActionHandler;
         VD.OnNodeChange -= UpdateUI;
         VD.OnEnd -= EndDialogue;
@@ -272,7 +272,7 @@ public class VIDEUIManager1 : MonoBehaviour
     {
         //If the script gets destroyed, let's make sure we force-end the dialogue to prevent errors
         //We do not save changes
-        CheckTasks();
+      //  CheckTasks();
         VD.OnActionNode -= ActionHandler;
         VD.OnNodeChange -= UpdateUI;
         VD.OnEnd -= EndDialogue;
@@ -315,7 +315,7 @@ public class VIDEUIManager1 : MonoBehaviour
 
                         //If it's CrazyCap, check his stock before continuing
                         //If out of stock, change override start node
-                        if (VD.assigned.alias == "CrazyCap")
+                      /*  if (VD.assigned.alias == "CrazyCap")
                             if ((int)data.extraVars["item"] + 1 >= player.demo_Items.Count)
                                 VD.assigned.overrideStartNode = 28;
 
@@ -324,7 +324,7 @@ public class VIDEUIManager1 : MonoBehaviour
                         {
                             GiveItem((int)data.extraVars["item"]);
                             return true;
-                        }
+                        }*/
                     }
                 }
             }
@@ -349,11 +349,11 @@ public class VIDEUIManager1 : MonoBehaviour
             //Get the item from CrazyCap to trigger this one on Charlie
             if (dialogue.alias == "Charlie")
             {
-                if (player.demo_ItemInventory.Count > 0 && dialogue.overrideStartNode == -1)
+              /*  if (player.demo_ItemInventory.Count > 0 && dialogue.overrideStartNode == -1)
                 {
                     dialogue.overrideStartNode = 16;
                     return false;
-                }
+                }*/
             }
         }
         return false;
@@ -394,7 +394,9 @@ public class VIDEUIManager1 : MonoBehaviour
             data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[NAME]", VD.assigned.gameObject.name);
 
         if (data.comments[data.commentIndex].Contains("[WEAPON]"))
-            data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[WEAPON]", player.demo_ItemInventory[0].ToLower());
+        {
+            // data.comments[data.commentIndex] = data.comments[data.commentIndex].Replace("[WEAPON]", player.demo_ItemInventory[0].ToLower());
+        }
     }
 
     #endregion
@@ -415,14 +417,14 @@ public class VIDEUIManager1 : MonoBehaviour
     }
 
     //Adds item to demo inventory, shows item popup, and pauses dialogue
-    void GiveItem(int itemIndex)
+   /* void GiveItem(int itemIndex)
     {
         player.demo_ItemInventory.Add(player.demo_Items[itemIndex]);
         itemPopUp.SetActive(true);
         string text = "You've got a <color=yellow>" + player.demo_Items[itemIndex] + "</color>!";
         itemPopUp.transform.GetChild(0).GetComponent<Text>().text = text;
         dialoguePaused = true;
-    }
+    }*/
 
     IEnumerator DrawText(string text, float time)
     {
@@ -462,13 +464,13 @@ public class VIDEUIManager1 : MonoBehaviour
     }
 
     //Check task progression
-    void CheckTasks()
+  /*  void CheckTasks()
     {
         if (player.demo_ItemInventory.Count == 5)
             QuestChartDemo.SetQuest(2, false);
 
         QuestChartDemo.CheckTaskCompletion(VD.nodeData);
-    }
+    }*/
 
     #endregion
 

@@ -32,6 +32,21 @@ public class Inventory : MonoBehaviour
         }
     }
 
+
+    public bool ReceiveItem(GameObject item)
+    {
+        for (int i = 0; i < inventory.Length; i++)
+        {
+            if (inventory[i] == item)
+            {
+                //found item
+                return true;
+            }
+        }
+        //item not found
+        return false;
+    }
+
     public bool FindItem(GameObject item)
     {
         for (int i = 0; i < inventory.Length; i++)
@@ -61,6 +76,8 @@ public class Inventory : MonoBehaviour
         // item of type not found 
         return null;
     }
+
+
 
     public void RemoveItem(GameObject item)
     {

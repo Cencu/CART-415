@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public VIDE_Assign inTrigger;
     public VIDEUIManager1 diagUI;
 
+   // public bool gotItem;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         //At start, wait for player to start
        // Time.timeScale = 0f;
         //make panel visible 
-        menuPanel.SetActive(false);
+       // menuPanel.SetActive(false);
          Time.timeScale = 1f;
 
         //  messageText.text = "Press Play to Start";
@@ -38,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
 
-        if (Input.GetKey("d") || Input.GetKey("a"))
+        if (Input.GetKey("d") || Input.GetKey("a") || Input.GetKey("left") || Input.GetKey("right"))
         {
             walking = true;
           //  Debug.Log(walking);
@@ -67,6 +69,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
+    
 
     void TryInteract()
     {

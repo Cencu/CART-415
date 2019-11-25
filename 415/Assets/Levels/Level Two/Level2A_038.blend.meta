@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: 3449fa9c14bf15c4ab36a7941ee6994d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: barrel_UV
+    100002: buildingB_R_UV
+    100004: buildingMidMid_UV_001
+    100006: chest_UV
+    100008: Circle_001
+    100010: Circle_003
+    100012: Circle_004
+    100014: cross_UV
+    100016: door_M_UV
+    100018: Floor
+    100020: L_BuildingBase
+    100022: //RootNode
+    100024: market_UV
+    100026: OutsideHouse
+    100028: pillarsRM_UV
+    100030: Plane_004
+    100032: Plane_009
+    100034: Plane_020
+    100036: Plane_021
+    100038: rockaroundDoorB
+    100040: rocksWindowLB
+    100042: roofM_TOP
+    100044: roofRBOT_UV
+    100046: roofShingles001_M_UV
+    100048: roofShingles002_M
+    100050: stairs
+    100052: stairsRailing_L
+    100054: stairsRailing_R
+    100056: stoneM_B_UV
+    100058: stoneRow_UV
+    100060: stonesPillars_M_UV
+    100062: stonesRLong_M_UV_001
+    100064: table_UV
+    100066: topwoodDoorB
+    100068: windowLBottomL
+    100070: windowLBottomR
+    100072: windows_M_M_UV
+    100074: windowsTOP_
+    100076: woodTop_L_
+    100078: woodTopM_UV
+    100080: woodTOPR_UV_002
+    400000: barrel_UV
+    400002: buildingB_R_UV
+    400004: buildingMidMid_UV_001
+    400006: chest_UV
+    400008: Circle_001
+    400010: Circle_003
+    400012: Circle_004
+    400014: cross_UV
+    400016: door_M_UV
+    400018: Floor
+    400020: L_BuildingBase
+    400022: //RootNode
+    400024: market_UV
+    400026: OutsideHouse
+    400028: pillarsRM_UV
+    400030: Plane_004
+    400032: Plane_009
+    400034: Plane_020
+    400036: Plane_021
+    400038: rockaroundDoorB
+    400040: rocksWindowLB
+    400042: roofM_TOP
+    400044: roofRBOT_UV
+    400046: roofShingles001_M_UV
+    400048: roofShingles002_M
+    400050: stairs
+    400052: stairsRailing_L
+    400054: stairsRailing_R
+    400056: stoneM_B_UV
+    400058: stoneRow_UV
+    400060: stonesPillars_M_UV
+    400062: stonesRLong_M_UV_001
+    400064: table_UV
+    400066: topwoodDoorB
+    400068: windowLBottomL
+    400070: windowLBottomR
+    400072: windows_M_M_UV
+    400074: windowsTOP_
+    400076: woodTop_L_
+    400078: woodTopM_UV
+    400080: woodTOPR_UV_002
+    2100000: floor__floor_UV
+    2100002: roofShingles002_M__roofShingles002_M_UV
+    2100004: stairsRailing_L_001__stairsRailing_UV_png
+    2100006: barrel_UV__barrel_UV
+    2100008: table_UV__table_UV
+    2100010: cross_UV__cross_UV
+    2100012: binoculars_UV__binoculars_UV
+    2100014: chest_UV__chest_UV
+    2100016: market_UV__market_UV
+    2100018: buildingB_R_UV__buildingB_R_UV
+    2100020: pillarsRM_UV__pillarsRM_UV
+    2100022: stonesRLong_M_UV_001__stonesRLong_M_UV_001
+    2100024: woodTOPR_UV_002__woodTOPR_UV_002
+    2100026: windowRTOP_UV__windowRTOP_UV
+    2100028: roofRBOT_UV__roofRBOT_UV
+    2100030: building_R_M__building_R_M
+    2100032: roofRShingles_UV__roofRShingles_UV
+    2100034: roofShingles001_M_UV__roofShingles001_M_UV
+    2100036: roofM_TOP_AMT__roofM_TOP_UV_001
+    2100038: woodTopM_UV__woodTopM_UV
+    2100040: windows_M_M_UV__windows_M_M_UV
+    2100042: stonesPillars_M_UV__stonesPillars_M_UV
+    2100044: buildingMidMid_UV_001__buildingMidMid_UV_001
+    2100046: stoneM_B_UV__stoneM_B_UV
+    2100048: door_M_UV__door_M_UV
+    2100050: woodTop_L___woodTop_L_png
+    2100052: windowsTOP___windowsTOP_UV_png
+    2100054: LbuildingTOP_UV__LbuildingTOP_UV_png
+    2100056: woodML__stoneRow_UV_png
+    2100058: topwoodDoorB__topDoorL_UV_png
+    2100060: stairs__stairs_UV
+    2100062: stairsRailing_L__stairsRailing_UV_png
+    2100064: rockaroundDoorB_MAT__rockaroundDoorB_UV
+    2100066: doorBaseBuilding_UV__doorBaseBuilding_UV
+    2100068: windowLBottomR__windowLBottomL_UV
+    2100070: rocksWindowLB__rocksWindowBotLR
+    2100072: windowLBottomL_MAT__windowLBottomL_UV
+    2100074: L_BuildingBase_AMT__L_BuildingBase_UV
+    2100076: outsideHouse_MAT__outsideHouse_UV
+    2300000: barrel_UV
+    2300002: buildingB_R_UV
+    2300004: buildingMidMid_UV_001
+    2300006: chest_UV
+    2300008: Circle_001
+    2300010: Circle_003
+    2300012: Circle_004
+    2300014: cross_UV
+    2300016: door_M_UV
+    2300018: Floor
+    2300020: L_BuildingBase
+    2300022: market_UV
+    2300024: OutsideHouse
+    2300026: pillarsRM_UV
+    2300028: Plane_004
+    2300030: Plane_009
+    2300032: Plane_020
+    2300034: Plane_021
+    2300036: rockaroundDoorB
+    2300038: rocksWindowLB
+    2300040: roofM_TOP
+    2300042: roofRBOT_UV
+    2300044: roofShingles001_M_UV
+    2300046: roofShingles002_M
+    2300048: stairs
+    2300050: stairsRailing_L
+    2300052: stairsRailing_R
+    2300054: stoneM_B_UV
+    2300056: stoneRow_UV
+    2300058: stonesPillars_M_UV
+    2300060: stonesRLong_M_UV_001
+    2300062: table_UV
+    2300064: topwoodDoorB
+    2300066: windowLBottomL
+    2300068: windowLBottomR
+    2300070: windows_M_M_UV
+    2300072: windowsTOP_
+    2300074: woodTop_L_
+    2300076: woodTopM_UV
+    2300078: woodTOPR_UV_002
+    3300000: barrel_UV
+    3300002: buildingB_R_UV
+    3300004: buildingMidMid_UV_001
+    3300006: chest_UV
+    3300008: Circle_001
+    3300010: Circle_003
+    3300012: Circle_004
+    3300014: cross_UV
+    3300016: door_M_UV
+    3300018: Floor
+    3300020: L_BuildingBase
+    3300022: market_UV
+    3300024: OutsideHouse
+    3300026: pillarsRM_UV
+    3300028: Plane_004
+    3300030: Plane_009
+    3300032: Plane_020
+    3300034: Plane_021
+    3300036: rockaroundDoorB
+    3300038: rocksWindowLB
+    3300040: roofM_TOP
+    3300042: roofRBOT_UV
+    3300044: roofShingles001_M_UV
+    3300046: roofShingles002_M
+    3300048: stairs
+    3300050: stairsRailing_L
+    3300052: stairsRailing_R
+    3300054: stoneM_B_UV
+    3300056: stoneRow_UV
+    3300058: stonesPillars_M_UV
+    3300060: stonesRLong_M_UV_001
+    3300062: table_UV
+    3300064: topwoodDoorB
+    3300066: windowLBottomL
+    3300068: windowLBottomR
+    3300070: windows_M_M_UV
+    3300072: windowsTOP_
+    3300074: woodTop_L_
+    3300076: woodTopM_UV
+    3300078: woodTOPR_UV_002
+    4300000: Floor
+    4300002: roofShingles002_M
+    4300004: stairsRailing_L
+    4300006: barrel_UV
+    4300008: table_UV
+    4300010: cross_UV
+    4300012: Circle_004
+    4300014: Circle_003
+    4300016: chest_UV
+    4300018: market_UV
+    4300020: buildingB_R_UV
+    4300022: pillarsRM_UV
+    4300024: stonesRLong_M_UV_001
+    4300026: woodTOPR_UV_002
+    4300028: Circle_001
+    4300030: roofRBOT_UV
+    4300032: Plane_021
+    4300034: Plane_020
+    4300036: roofShingles001_M_UV
+    4300038: roofM_TOP
+    4300040: woodTopM_UV
+    4300042: windows_M_M_UV
+    4300044: stonesPillars_M_UV
+    4300046: buildingMidMid_UV_001
+    4300048: stoneM_B_UV
+    4300050: door_M_UV
+    4300052: woodTop_L_
+    4300054: windowsTOP_
+    4300056: Plane_009
+    4300058: stoneRow_UV
+    4300060: topwoodDoorB
+    4300062: stairs
+    4300064: stairsRailing_R
+    4300066: rockaroundDoorB
+    4300068: Plane_004
+    4300070: windowLBottomR
+    4300072: rocksWindowLB
+    4300074: windowLBottomL
+    4300076: L_BuildingBase
+    4300078: OutsideHouse
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_BuildingBase_AMT__L_BuildingBase_UV
+    second: {fileID: 2100000, guid: 4ef86ce43563cb4409223482ed997364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LbuildingTOP_UV__LbuildingTOP_UV_png
+    second: {fileID: 2100000, guid: 4b56704701776094a90e4cbc5f8c0e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barrel_UV__barrel_UV
+    second: {fileID: 2100000, guid: d29e0c2505e0745429172d84241de720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: binoculars_UV__binoculars_UV
+    second: {fileID: 2100000, guid: d25b7e11d8921624cb9882d6285a8912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buildingB_R_UV__buildingB_R_UV
+    second: {fileID: 2100000, guid: b93e97c82a3649e42b0f3cc13595bffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buildingMidMid_UV_001__buildingMidMid_UV_001
+    second: {fileID: 2100000, guid: ea8fabbbb287630489a67f0942a3f189, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: building_R_M__building_R_M
+    second: {fileID: 2100000, guid: ac4ba0ddf8a514b4a8efce14e5e76056, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chest_UV__chest_UV
+    second: {fileID: 2100000, guid: f9eefcac8395661488056d115d874d07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cross_UV__cross_UV
+    second: {fileID: 2100000, guid: 34e61d254f7a4e74fbcf287114cead44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doorBaseBuilding_UV__doorBaseBuilding_UV
+    second: {fileID: 2100000, guid: 92435e413305ded4598ccf31f5721d0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_M_UV__door_M_UV
+    second: {fileID: 2100000, guid: 60d9c1ff84e876d489b9c44ebff03cae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor__floor_UV
+    second: {fileID: 2100000, guid: e47350835fdbec145ae30e4ef9711dd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: market_UV__market_UV
+    second: {fileID: 2100000, guid: 6d1bd28a0a432444e9abbc7588b448a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outsideHouse_MAT__outsideHouse_UV
+    second: {fileID: 2100000, guid: a07b9e360bcc3164caf41fcc154ab231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pillarsRM_UV__pillarsRM_UV
+    second: {fileID: 2100000, guid: 3d06891f04fae6946aa6ee98e8107062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rockaroundDoorB_MAT__rockaroundDoorB_UV
+    second: {fileID: 2100000, guid: 95b232301a082694b94dc93b9ba1d17f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rocksWindowLB__rocksWindowBotLR
+    second: {fileID: 2100000, guid: 9931e3d3bf96159499f2e73a924da46e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofM_TOP_AMT__roofM_TOP_UV_001
+    second: {fileID: 2100000, guid: 90fac993221e164438bc27d1e3fd9c25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofRBOT_UV__roofRBOT_UV
+    second: {fileID: 2100000, guid: 7b99004c876229e4a92ff198796db1fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofRShingles_UV__roofRShingles_UV
+    second: {fileID: 2100000, guid: a4e473d7f428ad445a9d28afc0922928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofShingles001_M_UV__roofShingles001_M_UV
+    second: {fileID: 2100000, guid: 5b06077e78d04ab46bd85716d1021214, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roofShingles002_M__roofShingles002_M_UV
+    second: {fileID: 2100000, guid: b4bd87d5ffc074646880eb0934b9e351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairsRailing_L_001__stairsRailing_UV_png
+    second: {fileID: 2100000, guid: 2823525a801e10c41b9da44dbeeb1803, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairsRailing_L__stairsRailing_UV_png
+    second: {fileID: 2100000, guid: 1a8ce67da75f4dc40b969e6796cced04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stairs__stairs_UV
+    second: {fileID: 2100000, guid: 28e31804614cb7744a4ee04e36539ddc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stoneM_B_UV__stoneM_B_UV
+    second: {fileID: 2100000, guid: 071f129f49fc7194e974e71fc62eb4c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stonesPillars_M_UV__stonesPillars_M_UV
+    second: {fileID: 2100000, guid: f949d50def356b9479a2725eb8fe5b95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stonesRLong_M_UV_001__stonesRLong_M_UV_001
+    second: {fileID: 2100000, guid: 3ee14bbeb8f5cd74da42c1ec68414af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: table_UV__table_UV
+    second: {fileID: 2100000, guid: a3c6cf734fe7d784298aa6b8c0530a71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topwoodDoorB__topDoorL_UV_png
+    second: {fileID: 2100000, guid: 7554eb3cc18be20439a6ea10e90a0d4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowLBottomL_MAT__windowLBottomL_UV
+    second: {fileID: 2100000, guid: 39d9d0a85d99bf8458ab49997a545244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowLBottomR__windowLBottomL_UV
+    second: {fileID: 2100000, guid: b6b7c2289e20429449e3c62bd8f787cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowRTOP_UV__windowRTOP_UV
+    second: {fileID: 2100000, guid: 0a0cf42d174f96d4ea1f37c1d09cf686, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowsTOP___windowsTOP_UV_png
+    second: {fileID: 2100000, guid: 0250b80156b1002479f04a592b1a2acc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows_M_M_UV__windows_M_M_UV
+    second: {fileID: 2100000, guid: ead3065b6fb569d42bc8a26981c37ea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodML__stoneRow_UV_png
+    second: {fileID: 2100000, guid: ab7fc604820b39647bb790b7c76e6cb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodTOPR_UV_002__woodTOPR_UV_002
+    second: {fileID: 2100000, guid: 36beb6ff448824742af21596ac514c06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodTopM_UV__woodTopM_UV
+    second: {fileID: 2100000, guid: 0e647b5761ca3d5499eb092cb3e03f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodTop_L___woodTop_L_png
+    second: {fileID: 2100000, guid: 3ce02160db8221749a543b73b293ffd8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

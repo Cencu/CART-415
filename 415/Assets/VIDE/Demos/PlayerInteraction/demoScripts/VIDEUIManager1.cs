@@ -40,6 +40,7 @@ public class VIDEUIManager1 : MonoBehaviour
 
     //Reference to the player script
     public PlayerMovement player;
+    public Inventory inventory;
 
     //We'll be using this to store references of the current player choices
     private List<Text> currentChoices = new List<Text>();
@@ -417,14 +418,16 @@ public class VIDEUIManager1 : MonoBehaviour
     }
 
     //Adds item to demo inventory, shows item popup, and pauses dialogue
-   /* void GiveItem(int itemIndex)
+   public void GiveItem(int itemIndex)
     {
-        player.demo_ItemInventory.Add(player.demo_Items[itemIndex]);
-        itemPopUp.SetActive(true);
-        string text = "You've got a <color=yellow>" + player.demo_Items[itemIndex] + "</color>!";
-        itemPopUp.transform.GetChild(0).GetComponent<Text>().text = text;
-        dialoguePaused = true;
-    }*/
+        /* player.demo_ItemInventory.Add(player.demo_Items[itemIndex]);
+         itemPopUp.SetActive(true);
+         string text = "You've got a <color=yellow>" + player.demo_Items[itemIndex] + "</color>!";
+         itemPopUp.transform.GetChild(0).GetComponent<Text>().text = text;
+         dialoguePaused = true;*/
+       // inventory.AddItem(item);
+        
+    }
 
     IEnumerator DrawText(string text, float time)
     {

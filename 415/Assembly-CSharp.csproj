@@ -61,10 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FantasyIconsPackFree\Demo\IconViewer.cs" />
+    <Compile Include="Assets\Scripts\activeItems.cs" />
     <Compile Include="Assets\Scripts\Dialogie\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Dialogie\DialogueChoices.cs" />
     <Compile Include="Assets\Scripts\Dialogie\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Dialogie\DialogueTrigger.cs" />
+    <Compile Include="Assets\Scripts\Dialogie\DialogueTrigger2.cs" />
     <Compile Include="Assets\Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\EnemyCatchMain.cs" />
     <Compile Include="Assets\Scripts\Hide.cs" />
@@ -116,6 +118,12 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -19,6 +19,12 @@ public class Interactable : MonoBehaviour
 
     public Inventory inventoryScript;
 
+    public float moveSpeed;
+
+    private bool leaving;
+   
+
+
     public void DoInteraction()
     {
         //picked up and put in inventory
@@ -31,6 +37,25 @@ public class Interactable : MonoBehaviour
         anim.SetBool("open", true);
     }
 
+    public void leave()
+    {
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+        anim.SetBool("leave", true);
+        leaving = true;
+        Debug.Log(leaving);
+    }
+
+    private void Update()
+    {
+        if (leaving)
+        {
+            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
+
+        }
+    }
+
     public void GiveItem()
     {
         //Debug.Log(gameObject);
@@ -40,12 +65,14 @@ public class Interactable : MonoBehaviour
          string text = "You've got a <color=yellow>" + player.demo_Items[itemIndex] + "</color>!";
          itemPopUp.transform.GetChild(0).GetComponent<Text>().text = text;
          dialoguePaused = true;
-        // inventoryScript.AddItem(item);
+        //
         */
         
-
+        inventoryScript.AddItem(gameObject);
 
     }
+
+    
 
 
     public void talk()

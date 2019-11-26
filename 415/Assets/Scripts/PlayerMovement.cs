@@ -10,8 +10,10 @@ public class PlayerMovement : MonoBehaviour
     private Animator mAnim;
 
     public string playerName = "Scotty";
-
+    [SerializeField]
     public float moveSpeed = 10f;
+
+    private bool facingRight;
     private bool walking = false;
     public bool dead = false;
 
@@ -21,29 +23,29 @@ public class PlayerMovement : MonoBehaviour
     public VIDE_Assign inTrigger;
     public VIDEUIManager1 diagUI;
 
+    private Rigidbody2D myRigidbody;
+
    // public bool gotItem;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        myRigidbody = GetComponent<Rigidbody2D>();
         mAnim = GetComponent<Animator>();
         //At start, wait for player to start
        // Time.timeScale = 0f;
         //make panel visible 
        // menuPanel.SetActive(false);
          Time.timeScale = 1f;
-
+        facingRight = true;
         //  messageText.text = "Press Play to Start";
     }
 
     private void Update()
     {
-
-        if (Input.GetKey("d") || Input.GetKey("a") || Input.GetKey("left") || Input.GetKey("right"))
+        /*if (Input.GetKey("d") || Input.GetKey("a") || Input.GetKey("left") || Input.GetKey("right"))
         {
             walking = true;
-          //  Debug.Log(walking);
         } else
         {
             walking = false;
@@ -51,26 +53,36 @@ public class PlayerMovement : MonoBehaviour
 
             Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
             transform.position += movement * Time.deltaTime * moveSpeed;
-        // walking = true;
         mAnim.SetBool("Walking", walking);
 
-       /* if (!VD.isActive)
-        {
-            transform.Rotate(0, Input.GetAxis("Mouse X") * 5, 0);
-            float move = Input.GetAxisRaw("Vertical");
-            transform.position += transform.forward * 7 * move * Time.deltaTime;
-            
-        }*/
+    */
+        float horizontal = Input.GetAxis("Horizontal");
+        HandleMovement(horizontal);
+        Flip(horizontal);
 
         if (Input.GetKeyDown(KeyCode.E))
         {
             TryInteract();
-           // Debug.Log("interacted");
         }
 
     }
 
-    
+    private void HandleMovement(float horizontal)
+    {
+        myRigidbody.velocity = new Vector2(horizontal * moveSpeed, myRigidbody.velocity.y);
+        mAnim.SetFloat("speed",Mathf.Abs(horizontal));
+    }
+
+    private void Flip(float horizontal)
+    {
+        if (horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
+        {
+            facingRight = !facingRight;
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
+        }
+    }
 
     void TryInteract()
     {

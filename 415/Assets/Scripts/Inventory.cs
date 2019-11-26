@@ -7,11 +7,11 @@ public class Inventory : MonoBehaviour
 {
     public GameObject[] inventory = new GameObject[6];
     public Button[] InventoryButtons = new Button[6];
-
+    //public GameObject item;
     public void AddItem(GameObject item)
     {
         bool itemAdded = false;
-
+        
         for (int i = 0; i < inventory.Length; i++)
         {
             if (inventory[i] == null)

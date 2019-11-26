@@ -11,13 +11,14 @@ public class Inventory : MonoBehaviour
     public void AddItem(GameObject item)
     {
         bool itemAdded = false;
-        
+        Debug.Log(item);
         for (int i = 0; i < inventory.Length; i++)
         {
             if (inventory[i] == null)
             {
                 inventory[i] = item;
                 //Update UI
+                //Debug.Log(InventoryButtons[i]);
                 InventoryButtons[i].image.overrideSprite = item.GetComponent<SpriteRenderer>().sprite;
                 Debug.Log(item.name + " was added");
                 itemAdded = true;

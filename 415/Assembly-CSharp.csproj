@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\FantasyIconsPackFree\Demo\IconViewer.cs" />
     <Compile Include="Assets\Scripts\activeItems.cs" />
+    <Compile Include="Assets\Scripts\cookedFoodTrigger.cs" />
     <Compile Include="Assets\Scripts\Dialogie\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Dialogie\DialogueChoices.cs" />
     <Compile Include="Assets\Scripts\Dialogie\DialogueManager.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PopUp.cs" />
     <Compile Include="Assets\Scripts\ShopControl.cs" />
+    <Compile Include="Assets\Scripts\ToNextScene.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\UseBino.cs" />
     <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
@@ -104,6 +106,9 @@
     <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />
     <None Include="Assets\VIDE\ReadMe.txt" />
     <None Include="Assets\Tiny Fantasy Icons\README.txt" />
+    <Reference Include="Cinemachine">
+      <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -113,17 +118,14 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/Documents/GitHub/CART-415/415/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

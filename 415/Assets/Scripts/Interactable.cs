@@ -13,11 +13,13 @@ public class Interactable : MonoBehaviour
     public string itemType;//Tells us what type of item this object is 
 
     public GameObject itemNeeded; //Item needed in order to interact with item   
+
     public Animator anim;
 
     public string message;
 
     public Inventory inventoryScript;
+ 
 
     public float moveSpeed;
 
@@ -29,6 +31,7 @@ public class Interactable : MonoBehaviour
     {
         //picked up and put in inventory
         gameObject.SetActive(false);
+
         //Debug.Log(gameObject);
     }
 
@@ -72,7 +75,7 @@ public class Interactable : MonoBehaviour
 
     }
 
-    
+   
 
 
     public void talk()

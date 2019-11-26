@@ -27,11 +27,15 @@ public class DialogueTrigger : MonoBehaviour
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             
             GameObject.Destroy(GameObject.Find("EatStart"));
-            
+           // Debug.Log("in");
         }
         
     }
+    public void OnCollisionExit2D(Collision2D other)
+    {
+      //  Debug.Log("out");
+    }
 
-    
+
 
 }

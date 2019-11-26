@@ -7,6 +7,8 @@ public class activeItems : MonoBehaviour
 
     public GameObject food;
 
+    public Inventory inventoryScript;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,13 @@ public class activeItems : MonoBehaviour
     public void foodActive()
     {
         food.SetActive(true);
+    }
+
+    public void addToInv()
+    {
+        food.SetActive(false);
+        inventoryScript.AddItem(food);
+
     }
 
 }

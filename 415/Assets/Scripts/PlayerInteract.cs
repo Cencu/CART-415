@@ -26,7 +26,7 @@ public class PlayerInteract : MonoBehaviour
             //check if it can be opened
             if (currentInterObjScript.openable)
             {
-                Debug.Log("asd");
+               // Debug.Log("asd");
                 //check to see if its locked
                 if (currentInterObjScript.locked)
                 {
@@ -61,21 +61,28 @@ public class PlayerInteract : MonoBehaviour
         if (Input.GetButtonDown("Interact"))
         {
             //check inventory for item
-            GameObject key = inventory.FindItemByType("Key_B"); 
+            GameObject key = inventory.FindItemByType("Key_B");
             if (key != null)
             {
                 //use item and apply effect
                 inventory.RemoveItem(key);
             }
-
+       
             GameObject food = inventory.FindItemByType("Food");
             if (food != null)
             {
                 //use item and remove
                 inventory.RemoveItem(food);
             }
-
-
+        }
+        if (Input.GetButtonDown("Use Item"))
+        {
+            GameObject cookedFood = inventory.FindItemByType("cookedFood");
+            if (cookedFood != null)
+            {
+                //use item and remove
+                inventory.RemoveItem(cookedFood);
+            }
         }
 
     }

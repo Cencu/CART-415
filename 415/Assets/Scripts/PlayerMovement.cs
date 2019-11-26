@@ -43,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        //Debug.Log(inTrigger);
         /*if (Input.GetKey("d") || Input.GetKey("a") || Input.GetKey("left") || Input.GetKey("right"))
         {
             walking = true;
@@ -60,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
         HandleMovement(horizontal);
         Flip(horizontal);
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             TryInteract();
         }
@@ -86,12 +87,13 @@ public class PlayerMovement : MonoBehaviour
 
     void TryInteract()
     {
-        if(inTrigger)
+        if (inTrigger)
         {
             diagUI.Interact(inTrigger);
-            Debug.Log("interacted");
+            // Debug.Log("interacted");
             return;
         }
+
     }
 
     public void startButton()
@@ -125,6 +127,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.GetComponent<VIDE_Assign>() != null)
         {
             inTrigger = other.GetComponent<VIDE_Assign>();
+            
         }
     }
     void OnTriggerExit()

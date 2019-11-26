@@ -7,7 +7,7 @@ public class DialogueTrigger2 : MonoBehaviour
     // Start is called before the first frame update
     public Dialogue dialogue;
     public bool selections;
-
+    public GameObject cookedFood;
 
 
     public void TriggerDialogue()
@@ -27,8 +27,14 @@ public class DialogueTrigger2 : MonoBehaviour
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 
             GameObject.Destroy(GameObject.Find("cookedTrigger"));
+            cookedFood.SetActive(true);
+            GameObject.Destroy(GameObject.Find("Pot_Lid"));
 
         }
 
+    }
+
+    public void OnCollisionExit2D(Collision2D other)
+    {
     }
 }

@@ -76,8 +76,8 @@ MonoBehaviour:
     ID: 0
     rect:
       serializedVersion: 2
-      x: -120
-      y: 20
+      x: -560
+      y: 110
       width: 349
       height: 120.399994
     pTag: 
@@ -86,7 +86,7 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 1
-  - commentCount: 1
+  - commentCount: 3
     s_comment:
     - text: A sailor came in b'fore, sold me some unique things...
       extraData: ExtraData
@@ -103,23 +103,56 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
+    - text: 'I''ve got this weird cross, supposed to be a peace sign between bandits
+        or sumthin. Sell yah that for 10 pence. '
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Also got these binoculars, in fairly good shape.
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
     ID: 1
     rect:
       serializedVersion: 2
-      x: 250
-      y: -30
+      x: 260
+      y: -10
       width: 349
-      height: 128
+      height: 212.8
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 4
     s_comment:
-    - text: 'I''ve got this weird cross, supposed to be a peace sign between bandits
-        or sumthin. Sell yah that for 10 pence. '
+    - text: 'I see... I''ll take the binoculars if you throw in the rat cross for
+        5 pence.
+
+'
       extraData: ExtraData
       inputSetIndex: 2
       outputNodeIndex: 3
@@ -134,105 +167,63 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 2
-    rect:
-      serializedVersion: 2
-      x: 640
-      y: -40
-      width: 349
-      height: 153.6
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Also got these binoculars, in fairly good shape.
+    - text: 
       extraData: ExtraData
-      inputSetIndex: 3
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 'I got some news on bandits, I''ll take the binoculars and if you throw
+        in the rat cross for 5 pence I''ll give you the info.
+
+'
+      extraData: ExtraData
+      inputSetIndex: 2
       outputNodeIndex: 4
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 302
-        y: 59
+        y: 136
         width: 30
-        height: 29
+        height: 67
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 3
-    rect:
-      serializedVersion: 2
-      x: 1020
-      y: -20
-      width: 349
-      height: 128
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 3
-    s_comment:
-    - text: I see... I'll take the binoculars if you throw in the rat cross for 5
-        pence.
+    - text: 'I''m sold on the binoculars, can you throw in the rat cross out of graciousness?
+
+'
       extraData: ExtraData
-      inputSetIndex: 4
+      inputSetIndex: 2
       outputNodeIndex: 5
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 302
-        y: 59
-        width: 30
-        height: 41
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: 'I got some news on bandits, I''ll take the binoculars and if you throw
-        in the rat cross for 5 pence I''ll give you the info.  '
-      extraData: ExtraData
-      inputSetIndex: 4
-      outputNodeIndex: 6
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 101
+        y: 204
         width: 30
         height: 54
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I'm sold on the binoculars, can you throw in the rat cross out of graciousness?
-      extraData: ExtraData
-      inputSetIndex: 4
-      outputNodeIndex: 7
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 156
-        width: 30
-        height: 41
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 4
     rect:
       serializedVersion: 2
-      x: 1390
-      y: -60
+      x: 670
+      y: -40
       width: 349
-      height: 238.40001
+      height: 298.8
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -243,7 +234,7 @@ MonoBehaviour:
     s_comment:
     - text: No deal, here's the binoculars though.
       extraData: ExtraData
-      inputSetIndex: 5
+      inputSetIndex: 3
       outputNodeIndex: -1
       outActionIndex: 0
       showmore: 0
@@ -259,8 +250,8 @@ MonoBehaviour:
     ID: 5
     rect:
       serializedVersion: 2
-      x: 1770
-      y: -120
+      x: 1130
+      y: -110
       width: 349
       height: 128
     pTag: 
@@ -273,8 +264,8 @@ MonoBehaviour:
     s_comment:
     - text: 'Bandits, what of them? '
       extraData: ExtraData
-      inputSetIndex: 6
-      outputNodeIndex: 8
+      inputSetIndex: 4
+      outputNodeIndex: 6
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -289,8 +280,8 @@ MonoBehaviour:
     ID: 6
     rect:
       serializedVersion: 2
-      x: 1790
-      y: 10
+      x: 1300
+      y: 40
       width: 349
       height: 120.399994
     pTag: 
@@ -303,7 +294,7 @@ MonoBehaviour:
     s_comment:
     - text: No deal, here's the binoculars though.
       extraData: ExtraData
-      inputSetIndex: 7
+      inputSetIndex: 5
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -319,8 +310,8 @@ MonoBehaviour:
     ID: 7
     rect:
       serializedVersion: 2
-      x: 1800
-      y: 160
+      x: 1300
+      y: 180
       width: 349
       height: 128
     pTag: 
@@ -334,8 +325,8 @@ MonoBehaviour:
     - text: 'They were seen outside of town by the courier, rumor is they are headed
         this way, best close shop if I were you. '
       extraData: ExtraData
-      inputSetIndex: 8
-      outputNodeIndex: 9
+      inputSetIndex: 6
+      outputNodeIndex: 7
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -350,8 +341,8 @@ MonoBehaviour:
     ID: 8
     rect:
       serializedVersion: 2
-      x: 2180
-      y: 20
+      x: 1710
+      y: 80
       width: 349
       height: 153.6
     pTag: 
@@ -364,7 +355,7 @@ MonoBehaviour:
     s_comment:
     - text: Damn bandits... Here, take em.
       extraData: ExtraData
-      inputSetIndex: 9
+      inputSetIndex: 7
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -380,8 +371,8 @@ MonoBehaviour:
     ID: 9
     rect:
       serializedVersion: 2
-      x: 2590
-      y: 30
+      x: 2120
+      y: 80
       width: 349
       height: 120.399994
     pTag: 
@@ -392,58 +383,34 @@ MonoBehaviour:
     isPlayer: 0
   S_actionNodes:
   - pauseHere: 0
-    gameObjectName: '[NONE]'
-    methodName: '[NONE]'
-    nameIndex: 0
-    methodIndex: 0
-    paramIndex: -1
+    gameObjectName: Binoculars 1
+    methodName: GiveItem
+    nameIndex: 4
+    methodIndex: 3
+    paramIndex: 0
     opts:
     - '[No method]'
+    - DoInteraction
+    - Open
+    - GiveItem
+    - talk
     nameOpts:
     - '[No object]'
     - UIMANAGER
     - Player
     - New Sprite
+    - Binoculars 1
     param_bool: 0
     param_string: 
     param_int: 0
     param_float: 0
     rect:
       serializedVersion: 2
-      x: 2190
-      y: -180
+      x: 1740
+      y: -210
       width: 200
       height: 157.2
     ID: 10
-    outPlayerIndex: -1
-    outActionIndex: -1
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: '[NONE]'
-    methodName: '[NONE]'
-    nameIndex: 0
-    methodIndex: 0
-    paramIndex: -1
-    opts:
-    - '[No method]'
-    nameOpts:
-    - '[No object]'
-    - UIMANAGER
-    - Player
-    - New Sprite
-    param_bool: 0
-    param_string: 
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 2430
-      y: -150
-      width: 200
-      height: 157.2
-    ID: 11
     outPlayerIndex: -1
     outActionIndex: -1
     more: 0

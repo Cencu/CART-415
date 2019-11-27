@@ -5,7 +5,7 @@ using UnityEngine;
 public class activeItems : MonoBehaviour
 {
 
-    public GameObject food;
+    public GameObject Item;
 
     public Inventory inventoryScript;
 
@@ -21,16 +21,13 @@ public class activeItems : MonoBehaviour
         
     }
 
-    public void foodActive()
-    {
-        food.SetActive(true);
-    }
 
     public void addToInv()
     {
-        food.SetActive(false);
-        inventoryScript.AddItem(food);
+        Item.SetActive(false);
+        inventoryScript.AddItem(Item);
 
     }
+   
 
 }

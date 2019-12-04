@@ -8,6 +8,7 @@ using VIDE_Data;
 public class PlayerMovement : MonoBehaviour
 {
     private Animator mAnim;
+    AudioSource audio;
 
     public string playerName = "Scotty";
     [SerializeField]
@@ -30,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         myRigidbody = GetComponent<Rigidbody2D>();
         mAnim = GetComponent<Animator>();
         //At start, wait for player to start
@@ -57,6 +59,18 @@ public class PlayerMovement : MonoBehaviour
         mAnim.SetBool("Walking", walking);
 
     */
+
+        if (Input.GetKeyDown("d") || Input.GetKeyDown("a"))
+        {
+            audio.Play();
+
+        }
+        if (Input.GetKeyUp("d") || Input.GetKeyUp("a"))
+        {
+            audio.Stop();
+
+        }
+
         float horizontal = Input.GetAxis("Horizontal");
         HandleMovement(horizontal);
         Flip(horizontal);

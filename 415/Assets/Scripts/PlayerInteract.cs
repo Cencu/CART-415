@@ -7,6 +7,7 @@ public class PlayerInteract : MonoBehaviour
     public GameObject currentInterObj = null;
     public Interactable currentInterObjScript = null;
     public Inventory inventory;
+    public DialogueTrigger2 dialogue;
 
 
     private void Update()
@@ -81,6 +82,18 @@ public class PlayerInteract : MonoBehaviour
             if (cookedFood != null)
             {
                 //use item and remove
+                inventory.RemoveItem(cookedFood);
+            }
+        }
+
+        if (Input.GetButtonDown("Use Item"))
+        {
+            GameObject cookedFood = inventory.FindItemByType("Binoculars");
+            if (cookedFood != null)
+            {
+                //use item and remove
+                dialogue.TriggerDialogue();
+
                 inventory.RemoveItem(cookedFood);
             }
         }

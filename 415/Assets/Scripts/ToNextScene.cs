@@ -16,6 +16,10 @@ public class ToNextScene : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(nextSceneToLoad);
+        if (collision.gameObject.name == "Player")
+        {
+            SceneManager.LoadScene(nextSceneToLoad);
+        }
+        
     }
 }

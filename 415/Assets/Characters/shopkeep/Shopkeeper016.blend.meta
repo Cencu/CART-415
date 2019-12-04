@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: c8f3af9c21578524fae17134187a9588
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: armL
+    100002: backShawl
+    100004: Dress
+    100006: face
+    100008: frontShawl
+    100010: handL
+    100012: handR
+    100014: lowerArmL
+    100016: lowerARmR
+    100018: outlinesFace
+    100020: Shirt
+    100022: //RootNode
+    100024: upperarmR
+    400000: armL
+    400002: backShawl
+    400004: Dress
+    400006: face
+    400008: frontShawl
+    400010: handL
+    400012: handR
+    400014: lowerArmL
+    400016: lowerARmR
+    400018: outlinesFace
+    400020: Shirt
+    400022: //RootNode
+    400024: upperarmR
+    2100000: outlinesFace__faceOutlines_UV
+    2100002: backShawl__Shawl_UV
+    2100004: frontShawl__ShawlFront_UV
+    2100006: face__face_UV
+    2100008: upperarmR__arm_R_png
+    2100010: lowerARmR__armRBOT_png
+    2100012: handR__handR_png
+    2100014: handL__handL_png
+    2100016: lowerArmL_001__ArmBOTL_png
+    2100018: armL__arm_L_png
+    2100020: Shirt__shirt_UV_002
+    2100022: Dress__dress_UV_png
+    2300000: armL
+    2300002: backShawl
+    2300004: Dress
+    2300006: face
+    2300008: frontShawl
+    2300010: handL
+    2300012: handR
+    2300014: lowerArmL
+    2300016: lowerARmR
+    2300018: outlinesFace
+    2300020: Shirt
+    2300022: upperarmR
+    3300000: armL
+    3300002: backShawl
+    3300004: Dress
+    3300006: face
+    3300008: frontShawl
+    3300010: handL
+    3300012: handR
+    3300014: lowerArmL
+    3300016: lowerARmR
+    3300018: outlinesFace
+    3300020: Shirt
+    3300022: upperarmR
+    4300000: outlinesFace
+    4300002: backShawl
+    4300004: frontShawl
+    4300006: face
+    4300008: upperarmR
+    4300010: lowerARmR
+    4300012: handR
+    4300014: handL
+    4300016: lowerArmL
+    4300018: armL
+    4300020: Shirt
+    4300022: Dress
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dress__dress_UV_png
+    second: {fileID: 2100000, guid: 3db940d151b7b4047a5707ac059b2212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt__shirt_UV_002
+    second: {fileID: 2100000, guid: 208ea1c4006710140aec159b2c99705b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: armL__arm_L_png
+    second: {fileID: 2100000, guid: fa3d5848a1b18994d96ae09aaf230bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backShawl__Shawl_UV
+    second: {fileID: 2100000, guid: a606ed1ad24978e4ab2025ff8ba3d516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face__face_UV
+    second: {fileID: 2100000, guid: 37dde45050c1a10408af4708239ceb52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frontShawl__ShawlFront_UV
+    second: {fileID: 2100000, guid: fb337ecdd8fdd38459249eae71b7d3e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handL__handL_png
+    second: {fileID: 2100000, guid: 7e222452a2c3bbe44bc031c248fceead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handR__handR_png
+    second: {fileID: 2100000, guid: 3ef43d9cbb2d60a46b9f3bbbde5e21c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lowerARmR__armRBOT_png
+    second: {fileID: 2100000, guid: f970cc411c3f0ae4e9d02cd12059078c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lowerArmL_001__ArmBOTL_png
+    second: {fileID: 2100000, guid: 483171081fbc31e4fa060833aec8ee54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outlinesFace__faceOutlines_UV
+    second: {fileID: 2100000, guid: c636373070f1c664ba3f07ca5291dbdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: upperarmR__arm_R_png
+    second: {fileID: 2100000, guid: 2620677ed8bc1004e8563f0eda3f022f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 3
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

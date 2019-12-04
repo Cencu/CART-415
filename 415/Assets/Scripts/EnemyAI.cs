@@ -12,19 +12,25 @@ public class EnemyAI : MonoBehaviour
 
     public Transform target;
     public float chaseRange;
+    public PlayerMovement playerMovement;
+    public Hide hide;
+    private BoxCollider2D box;
+
 
     // Start is called before the first frame update
     void Start()
     {
         currentPatrolIndex = 0;
         currentPatrolPoint = patrolPoints[currentPatrolIndex];
+        box = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+       // Debug.Log(hide.canHide);
         //Have we reached the patrol point
-        if (Vector3.Distance(transform.position, currentPatrolPoint.position) < 1f)
+        if (Vector3.Distance(transform.position, currentPatrolPoint.position) < 2f)
         {
             //We have reached the patrol point, get the next one 
             if (currentPatrolIndex + 1 < patrolPoints.Length)
@@ -71,11 +77,30 @@ public class EnemyAI : MonoBehaviour
 
             // transform.Translate(Vector3.up * Time.deltaTime * speed);
             transform.Translate(targetDir.normalized * Time.deltaTime * speed);
-
+           
         }
 
 
     }
 
-  
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.name == "Player" && hide.canHide)
+        {
+            playerMovement.dead = false;
+            box.enabled = false;
+        }
+        if (other.gameObject.name == "Player" && !hide.canHide)
+        {
+            playerMovement.dead = true;
+            playerMovement.death();
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        box.enabled = true;
+    }
+
+
 }

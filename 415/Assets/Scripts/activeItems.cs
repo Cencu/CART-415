@@ -21,6 +21,11 @@ public class activeItems : MonoBehaviour
         
     }
 
+    public void activateItem()
+    {
+        Item.SetActive(true);
+    }
+
 
     public void addToInv()
     {

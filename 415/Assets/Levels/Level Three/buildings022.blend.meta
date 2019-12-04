@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: a60d4cfbc42fa4d4a934e9df7aa17470
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Building001_Left
+    100002: //RootNode
+    100004: Circle_006
+    100006: Gate_Building
+    100008: Gate_Door
+    100010: middle_building
+    100012: middle_roof
+    100014: Plane
+    100016: Plane_002
+    100018: Plane_003
+    100020: Raod
+    100022: right_building
+    100024: right_roof
+    100026: Window_LB
+    100028: Window_LB_001
+    100030: windowLBottomL_001
+    400000: Building001_Left
+    400002: //RootNode
+    400004: Circle_006
+    400006: Gate_Building
+    400008: Gate_Door
+    400010: middle_building
+    400012: middle_roof
+    400014: Plane
+    400016: Plane_002
+    400018: Plane_003
+    400020: Raod
+    400022: right_building
+    400024: right_roof
+    400026: Window_LB
+    400028: Window_LB_001
+    400030: windowLBottomL_001
+    2100000: None__windowR_UV
+    2100002: None__windowRTOP_UV_paazng
+    2100004: None__windowsTOP_UV_png
+    2100006: windowLBottomL_MAT__windowsMTB_UV
+    2100008: windowLBottomR__windowsMTB_UV
+    2100010: None__Window_L_B_UV
+    2100012: unnamed
+    2100014: None__floor_UV_001
+    2100016: None__gateDoor_UV
+    2100018: None__buildingR_TOP_UV_002
+    2100020: None__buildingR_UV
+    2100022: None__roofM_UV_001
+    2100024: None__middleB_UV_001
+    2100026: None__building_L_UV
+    2100028: None__gate_UV_001
+    2300000: Building001_Left
+    2300002: Circle_006
+    2300004: Gate_Building
+    2300006: Gate_Door
+    2300008: middle_building
+    2300010: middle_roof
+    2300012: Plane
+    2300014: Plane_002
+    2300016: Plane_003
+    2300018: Raod
+    2300020: right_building
+    2300022: right_roof
+    2300024: Window_LB
+    2300026: Window_LB_001
+    2300028: windowLBottomL_001
+    3300000: Building001_Left
+    3300002: Circle_006
+    3300004: Gate_Building
+    3300006: Gate_Door
+    3300008: middle_building
+    3300010: middle_roof
+    3300012: Plane
+    3300014: Plane_002
+    3300016: Plane_003
+    3300018: Raod
+    3300020: right_building
+    3300022: right_roof
+    3300024: Window_LB
+    3300026: Window_LB_001
+    3300028: windowLBottomL_001
+    4300000: Plane_003
+    4300002: Circle_006
+    4300004: Plane_002
+    4300006: windowLBottomL_001
+    4300008: Window_LB_001
+    4300010: Plane
+    4300012: Window_LB
+    4300014: Raod
+    4300016: Gate_Door
+    4300018: right_roof
+    4300020: right_building
+    4300022: middle_roof
+    4300024: middle_building
+    4300026: Building001_Left
+    4300028: Gate_Building
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__Window_L_B_UV
+    second: {fileID: 2100000, guid: dd51423a975b9464eb2648dcca5393ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__buildingR_TOP_UV_002
+    second: {fileID: 2100000, guid: 770ce01904abb094b891b0bf9485f186, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__buildingR_UV
+    second: {fileID: 2100000, guid: 61f4f7713d604c848ab4de015fcc74a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__building_L_UV
+    second: {fileID: 2100000, guid: 2dc5b9d72f94b1e41b043fdf4ffa079f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__floor_UV_001
+    second: {fileID: 2100000, guid: a70f7f7b0a8c6db498f00d75728cdea3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__gateDoor_UV
+    second: {fileID: 2100000, guid: b63c10d8227ac72439ca8c83482d0aca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__gate_UV_001
+    second: {fileID: 2100000, guid: 1e5e33ddc17aee34a8b35957efb7d178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__middleB_UV_001
+    second: {fileID: 2100000, guid: 98e2a6fc3eb90144da4d9a80dde69def, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__roofM_UV_001
+    second: {fileID: 2100000, guid: f9a9e3ab966864e448a98fda90d6be73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__windowRTOP_UV_paazng
+    second: {fileID: 2100000, guid: bd7cb8e977693bf44bda0c3074eaa2cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__windowR_UV
+    second: {fileID: 2100000, guid: b887cf91e78e1e94099e9e19ac30baf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__windowsTOP_UV_png
+    second: {fileID: 2100000, guid: 3ac5a2b1eb0853c4787332465f939b4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 11ffbceb53b445d40b337d3f8a654dfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowLBottomL_MAT__windowsMTB_UV
+    second: {fileID: 2100000, guid: 17b02d8fd22274147a209017700ad4d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowLBottomR__windowsMTB_UV
+    second: {fileID: 2100000, guid: d30b77315aef9a547b6ec84148a7524e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 10
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
